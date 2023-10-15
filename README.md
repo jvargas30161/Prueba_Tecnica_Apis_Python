@@ -1,6 +1,6 @@
 # Prueba_Tecnica_Apis_Python
 
-Ejercicio 3: Tratamiento de datos en APIs
+Tratamiento de datos en APIs
 En este enlace encontrarás la documentación de la API de una tienda de mascotas: 
 https://petstore.swagger.io/ 
 

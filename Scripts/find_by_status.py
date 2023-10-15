@@ -3,7 +3,7 @@ import requests
 base_url = "https://petstore.swagger.io/v2/"  # Reemplaza esto con la URL real que estás utilizando
 
 # Realiza una solicitud HTTP a la URL con status=sold
-response = requests.get(base_url + 'pet/findByStatus?status=available')
+response = requests.get(base_url + 'pet/findByStatus?status=sold')
 
 if response.status_code == 200:  # Verifica que la solicitud haya tenido éxito
     data = response.json()  # Convierte la respuesta JSON en un diccionario de Python
