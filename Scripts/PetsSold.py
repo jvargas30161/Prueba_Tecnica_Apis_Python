@@ -18,7 +18,7 @@ if __name__ == "__main__":
     import requests
 
     base_url = "https://petstore.swagger.io/v2/"
-    response = requests.get(base_url + 'pet/findByStatus?status=sold')
+    response = requests.get(base_url + 'pet/findByStatus?status=available')
 
     if response.status_code == 200:
         data = response.json()

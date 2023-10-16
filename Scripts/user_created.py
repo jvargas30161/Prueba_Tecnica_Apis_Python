@@ -4,7 +4,7 @@ import json
 # Definir la URL base de la API de Petstore
 base_url = 'https://petstore.swagger.io/v2/'
 
-# Función para consultar un usuario por su nombre de usuario (username)
+# Función para consultar usuario nombre de usuario (username)
 def consultar_usuario(username):
     url = base_url + f'user/{username}'
 
@@ -12,7 +12,7 @@ def consultar_usuario(username):
 
     if response.status_code == 200:
         usuario = response.json()
-        print(f'Información del usuario:')
+        print(f'Información del usuario creado:')
         print(f'Id del usuario: {usuario["id"]}')
         print(f'Nombre de usuario: {usuario["username"]}')
         print(f'Nombre completo: {usuario["firstName"]} {usuario["lastName"]}')

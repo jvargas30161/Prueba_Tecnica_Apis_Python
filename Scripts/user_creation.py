@@ -23,7 +23,7 @@ def crear_usuario_desde_json(json_file):
 
 if __name__ == "__main__":
     # Ruta al archivo JSON con los datos del usuario
-    json_file = 'new_user.json'  # Reemplaza con la ruta correcta a tu archivo JSON.
+    json_file = 'new_user.json'
 
     # Crear un nuevo usuario desde el archivo JSON
     crear_usuario_desde_json(json_file)
