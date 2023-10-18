@@ -1,23 +1,59 @@
-# Prueba_Tecnica_Apis_Python
+# Proyecto Python con Métodos POST y GET
 
-Tratamiento de datos en APIs
-En este enlace encontrarás la documentación de la API de una tienda de mascotas: 
-https://petstore.swagger.io/ 
+Este proyecto en Python se centra en interactuar con la API de Petstore usando 
+métodos HTTP POST y GET. También incluye una clase `MascotasVendidas` que permite 
+contar las mascotas vendidas por nombre. Para la ejecución de las pruebas automáticas será 
+necesario tener inslado Pyhon.
 
-user_creation.py
-user_created.py
-new_user.json
-1. Crea tu usuario mediante petición HTTP y posteriormente recupera sus datos llamando al 
-servicio correspondiente.
- 
-find_by_status.py
-3. Recoge mediante petición HTTP, el JSON que retorna el endpoint /pet/findByStatus y lista 
-mediante una función los nombres de las mascotas que se hayan vendido. 
-- El formato de salida deberá estar formado por la tupla {id, name}. 
-- Puedes utilizar la estructura de datos que prefieras. 
+## Contenido
+* [Librerías](#librerías)
+* [Documentación de API](#Documentación de API)
+* [IDE](#ide)
+* [Scripts](#Scripts)
+* [Contribuciones](#Contribuciones)
 
-find_by_status.py
-3. Crea una clase cuyo constructor requiera de la estructura de datos anterior y realiza un método 
-que pueda recorrerla para poder identificar cuantas mascotas se llaman igual. 
-- Ejemplo de salida: {“William”: 11, “ Floyd”: 2} Como output, te pediremos el código (puedes 
-separarlo en archivos como quieras) y los resultados de salida de los puntos anteriores.
+## Librerías
+- Requests
+- JSON
+- 
+## Documentación de API
+- https://petstore.swagger.io/#/pet/findPetsByStatus
+
+## IDE
+Para este proyecto se ha usado [IntelliJ](https://www.jetbrains.com/idea/)
+
+### Plugins recomendados para intelliJ
+
+- [SonarLint](https://plugins.jetbrains.com/plugin/7973-sonarlint) - Valida código python.
+
+### Ejecución desde IDE de un test en concreto
+
+Colocar el ratón sobre el scenario a ejecutar y click derecho "Run"
+
+### Scripts
+
+ La carpeta scripts contiene los ficheros:
+
+- user_creation.py
+  - 
+  - Contiene código python para ejecución de creación de usaurio método POST.
+   
+- new_user.json
+  - 
+- Contiene archivo json, con la data para la creación del usuario método POST.
+
+- user_created.py
+  - 
+- Contiene código python para ejecución de la búsqueda del usuario creado método GET.
+
+- find_by_status.py
+  - 
+- Contiene código python para ejecución de la búsqueda por ID y NAME de mascotas por estado SOLD.
+- 
+- find_by_status.py
+  -
+- Contiene clase python con constructor donde se obtendrá el total de mascotas con mismo nombre.
+
+- Contribuciones
+  - 
+- Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, no dudes en crear un pull request.
