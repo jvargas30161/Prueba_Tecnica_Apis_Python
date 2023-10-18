@@ -15,7 +15,7 @@ necesario tener inslado Pyhon.
 ## Librerías
 - Requests
 - JSON
-- 
+
 ## Documentación de API
 - https://petstore.swagger.io/#/pet/findPetsByStatus
 
@@ -36,7 +36,7 @@ Colocar el ratón sobre el scenario a ejecutar y click derecho "Run"
 
 - user_creation.py
   - 
-  - Contiene código python para ejecución de creación de usaurio método POST.
+- Contiene código python para ejecución de creación de usaurio método POST.
    
 - new_user.json
   - 
@@ -49,7 +49,7 @@ Colocar el ratón sobre el scenario a ejecutar y click derecho "Run"
 - find_by_status.py
   - 
 - Contiene código python para ejecución de la búsqueda por ID y NAME de mascotas por estado SOLD.
-- 
+
 - find_by_status.py
   -
 - Contiene clase python con constructor donde se obtendrá el total de mascotas con mismo nombre.
