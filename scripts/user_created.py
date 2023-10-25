@@ -12,7 +12,7 @@ def consultar_usuario(username):
 
     if response.status_code == 200:
         usuario = response.json()
-        print(f'Información del usuario creado:')
+        print('Información del usuario creado:')
         print(f'Id del usuario: {usuario["id"]}')
         print(f'Nombre de usuario: {usuario["username"]}')
         print(f'Nombre completo: {usuario["firstName"]} {usuario["lastName"]}')
